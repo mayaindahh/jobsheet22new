@@ -32,13 +32,13 @@ class Session  (context: Context){
 
     fun validate(username: String?, password: String): Boolean {
         val namalengkap = "Maya Indah Lestari."
-        if (username == "maya" && password == "admin123") {
+        if (username == "admin" && password == "admin123") {
             setSession(username, namalengkap)
             return true
         }else if (username == "Radiva" && password == "Radiva123") {
             setSession(username, namalengkap)
             return true
-        }else if (username == "2000" && password == "2000") {
+        }else if (username == "3009" && password == "3009") {
             setSession(username,namalengkap)
             return true
         }
